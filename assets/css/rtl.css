@@ -1,0 +1,39 @@
+body {
+  text-align: right;
+}
+
+
+[type="email"], [type="number"], [type="tel"], [type="url"] {
+  direction: rtl;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6, span, p, li, a, .circle-text text {
+letter-spacing: 0px !important;
+font-family: "Vazirmatn RD FD", sans-serif;
+}
+.odometer.odometer-auto-theme,.odometer.odometer-theme-default{direction: ltr;font-family: "Vazirmatn RD FD", sans-serif;}
+.coming-soon-area .coming-soon .list ul {
+  direction: ltr;
+}
+button, input, optgroup, select, textarea {
+font-family: "Vazirmatn RD FD", sans-serif;
+}
+#timer {
+  direction: ltr;
+}
+
+.btn.disabled, .btn:disabled, fieldset:disabled .btn {
+    pointer-events: unset!important;
+}
+.quality-content img {
+    left: unset!important;
+    right: 0!important;
+}
+.coming-item .coming-wrap {
+  direction: ltr!important;
+}
+.theme-light .cart-wrap .table .thead tr .table-head {
+    color: #333333!important;
+}
+
+
+.review-slider .bx-chevron-left:before, .banner-slider .bx-chevron-left:before{content:"\ea50"!important;} .review-slider .bx-chevron-right:before, .banner-slider .bx-chevron-right:before{content:"\ea4d"!important;}
